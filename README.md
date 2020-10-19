@@ -6,7 +6,7 @@ Go to that folder, Open cmd there
 
 run :
  
-pip install -r requirements.txt
+pip install -r library.txt
 
 then run :
 
