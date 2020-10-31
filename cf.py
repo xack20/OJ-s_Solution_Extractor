@@ -24,15 +24,14 @@ csrf = bs(login_page.content, 'html.parser').find("meta", attrs={"name": "X-Csrf
 cf_handle = ""
 password =""
 
-data = None
+data = ""
 
 def user_info():
     global cf_handle,password
-    cf_handle = input("CF Handle   : ")
+    cf_handle = input("\nCF Handle   : ")
     password = input( "CF Password : ")
 
 while True:
-    global data
     user_info()
     data = session.get('https://codeforces.com/api/user.status?handle=' + cf_handle + '&from=1&count=50000').json()
 
