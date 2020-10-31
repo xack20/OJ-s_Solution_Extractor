@@ -10,10 +10,9 @@
 
 ## User Manual
 
-Download and install python from: https://www.python.org/downloads/
-  * make sure you have add python to your PATH varibale during installing
+Download and install python from: https://www.python.org/downloads/ ( Make sure you have add python to your PATH varibale during installing )
 
-* Download The Repository
+* Download This Repository
 * Go to that folder, Open ```cmd``` there.
 * run : ```pip install -r library.txt```
 * then
