@@ -5,6 +5,8 @@ import requests as rq
 from tqdm import tqdm
 from bs4 import BeautifulSoup as bs
 
+clear = lambda: os.system('cls')
+
 ts = time.time()
 
 session = rq.Session()
@@ -18,9 +20,31 @@ HEADERS = {
 login_page = session.get(login_url, headers=HEADERS)
 
 csrf = bs(login_page.content, 'html.parser').find("meta", attrs={"name": "X-Csrf-Token"}).get('content')
-cf_handle = "Zakaria_Foysal"
-password = "ilove3.1416"
 
+cf_handle = ""
+password =""
+
+data = None
+
+def user_info:
+    global cf_handle,password
+    cf_handle = input("CF Handle   : )
+    password = input( "CF Password : )
+
+while True:
+    global data
+    user_info()
+    data = session.get('https://codeforces.com/api/user.status?handle=' + cf_handle + '&from=1&count=50000').json()
+
+    if data['status'] == "OK":
+        print("\nSuccessfully Logged in!\n")
+        break
+    else:
+        print("Invalid cf_Handle or password!\n")
+        clear()
+        
+
+                     
 login_data = {
     "csrf_token": csrf,
     "action": "enter",
@@ -45,11 +69,7 @@ def site_hit(URL,t):
         return site_hit(URL,t+.2)
 
 
-data = session.get('https://codeforces.com/api/user.status?handle=' + cf_handle + '&from=1&count=50000').json()
 
-if data['status'] != "OK":
-    print("Invalid Username")
-    exit()
 
 data = list(data['result'])
 
