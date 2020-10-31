@@ -15,7 +15,9 @@ Download and install python from: https://www.python.org/downloads/
 * Download The Repository
 * Go to that folder, Open ```cmd``` there.
 * run : ```pip install -r library.txt```
-* then run : ```python uri_solutions.py```
+* then 
+      * for URI , run : ```python uri.py```
+      * for CF , run  : ```python cf.py```
 
 <hr>
 Thanks :) 
