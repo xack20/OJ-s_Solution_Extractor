@@ -17,7 +17,7 @@ Download and install python from: https://www.python.org/downloads/
 * run : ```pip install -r library.txt```
 * then
   * for URI , run : ```python uri.py```
-  * for CF , run  : ```python cf.py```
+  * for CF  , run : ```python cf.py```
 
 <hr>
 Thanks :) 
