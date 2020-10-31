@@ -26,7 +26,7 @@ password =""
 
 data = None
 
-def user_info:
+def user_info():
     global cf_handle,password
     cf_handle = input("CF Handle   : )
     password = input( "CF Password : )
