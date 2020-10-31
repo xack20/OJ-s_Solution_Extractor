@@ -6,18 +6,16 @@
 [![GitHub stars](https://img.shields.io/github/stars/xack20/OJ-s_Solution_Extractor.svg?style=social&label=Stars)](https://github.com/xack20/OJ-s_Solution_Extractor)
 [![HitCount](http://hits.dwyl.io/xack20/badges.svg)](http://hits.dwyl.io/xack20/badges)
 
-Download and install python
+<hr>
 
-https://www.python.org/downloads/
+## User Manual
 
-Download The Project Folder
+Download and install python from: https://www.python.org/downloads/
 
-Go to that folder, Open cmd there
+* Download The Repository
+* Go to that folder, Open ```cmd``` there.
+* run : ```pip install -r library.txt```
+* then run : ```python uri_solutions.py```
 
-run :
- 
-pip install -r library.txt
-
-then run :
-
-python uri_solutions.py
+<hr>
+Thanks :) 
