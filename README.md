@@ -11,6 +11,7 @@
 ## User Manual
 
 Download and install python from: https://www.python.org/downloads/
+  * make sure you have add python to your PATH varibale during installing
 
 * Download The Repository
 * Go to that folder, Open ```cmd``` there.
