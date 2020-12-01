@@ -10,7 +10,7 @@
 
 ## User Manual
 
-Download and install python from: https://www.python.org/downloads/ ( Make sure you have add python to your PATH varibale during installing)
+Download and install python from: https://www.python.org/downloads/ ( Make sure you have added python to your PATH varibale during installing (for windows) )
 
 * Download This Repository
 * Go to that folder, Open ```cmd (windows) or terminal(linux)``` there.
