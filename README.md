@@ -18,6 +18,7 @@ Download and install python from: https://www.python.org/downloads/ ( Make sure 
 * then
   * for URI , run : ```python uri.py```
   * for CF  , run : ```python cf.py```
+* You will find the Download Folder in the same directory!
 
 <hr>
 Thanks :) 
