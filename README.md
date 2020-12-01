@@ -13,7 +13,7 @@
 Download and install python from: https://www.python.org/downloads/ ( Make sure you have add python to your PATH varibale during installing)
 
 * Download This Repository
-* Go to that folder, Open ```cmd``` there.
+* Go to that folder, Open ```cmd (windows) or terminal(linux)``` there.
 * run : ```pip install -r library.txt```
 * then
   * for URI , run : ```python uri.py```
