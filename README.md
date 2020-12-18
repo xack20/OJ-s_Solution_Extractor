@@ -8,6 +8,15 @@
 
 <hr>
 
+# Disclaimer 
+
+* Dont use this script unnecessarily and many times.
+* I have no intension to put programmers / OJ's server in trouble.
+
+
+
+<hr>
+
 ## User Manual
 
 Download and install python from: https://www.python.org/downloads/ ( Make sure you have added python to your PATH varibale during installing (for windows) )
