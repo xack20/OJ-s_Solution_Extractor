@@ -10,7 +10,7 @@
 
 # Disclaimer 
 
-* Dont use this script unnecessarily and many times.
+* Dont use these script unnecessarily many times.
 * I have no intension to put programmers / OJ's server in trouble.
 
 
